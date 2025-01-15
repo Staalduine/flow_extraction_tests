@@ -1,16 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from .context import sample
+from .context import src
 
-import unittest
+def test_thoughts():
+    assert src.hmm() is None
 
-
-class AdvancedTestSuite(unittest.TestCase):
-    """Advanced test cases."""
-
-    def test_thoughts(self):
-        self.assertIsNone(sample.hmm())
-
-
-if __name__ == '__main__':
-    unittest.main()

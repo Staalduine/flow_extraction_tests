@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='Flow_extraction_tests',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Package that tests different flow extraction algorithms',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Simon van Staalduine',
+    author_email='svstaalduine@amolf.nl',
+    url='https://github.com/Staalduine/flow_extraction_tests',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
